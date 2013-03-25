@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="30b4d00e-0265-4d32-994c-675d96c48d87" Version="1.0.0.0" Publisher="CN=Mike" />
+  <Properties>
+    <DisplayName>Indy.Win8</DisplayName>
+    <PublisherDisplayName>Mike</PublisherDisplayName>
+    <Logo>www\images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="www\default.html">
+      <VisualElements DisplayName="Indy.Win8" Logo="www\images\logo.png" SmallLogo="www\images\smalllogo.png" Description="Indy.Win8" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="www\images\splashscreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
